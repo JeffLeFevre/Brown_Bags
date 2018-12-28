@@ -3,8 +3,7 @@ __What Does a Context Manager do?__
 + Automatic resource tear-down
 + Reduction in code
 + Good error handling comes automagically
-   
-   
+---
 __What Does a Context Manager Look Like?__
 + Decorator-based
     1. Less code
@@ -21,8 +20,7 @@ __What Does a Context Manager Look Like?__
     1. Calls a built-in class or your custom class.
     2. Instantiates a Context Manager object
     3. Left indent ends the ‘with’ statement, calling ```__exit__()```
-   
-   
+---
 __How do you Test a Context Manager?__
 + Class-based method easier to test:   
     + Check that the appropriate methods are being called
@@ -30,19 +28,16 @@ __How do you Test a Context Manager?__
     + Check resource state on ```__exit__()```
     + Ensure errors thrown
     + Structure helps lay out appropriate use
-   
-   
+---
 __What are the Benefits to Using a Context Manager?__
 + Better error handling
 + Resources properly closed out in any scenario
-   
-   
+---
 __What are the Drawbacks?__
 + Code might not be as readable
 + Hammer and nail - be sure the library or built-in you’re using doesn’t
 + already have a context manager!
-   
-   
+---
 __Resources:__
 https://docs.python.org/3/library/contextlib.html - Python 3.7 Context Manager Library
 https://docs.python.org/3.6/library/contextlib.html - Python 3.6 Context Manager Library
