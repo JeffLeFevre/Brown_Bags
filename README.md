@@ -21,10 +21,7 @@ What Does a Context Manager Look Like?
     3. Left indent ends the ‘with’ statement, calling ```__exit__()```
 
 How do you Test a Context Manager?
-+ Class-based method easier to test:
-    ```__init__```     
-    ```__enter__```   
-    ```__exit__```    
++ Class-based method easier to test:   
     + Check that the above methods are being called
     + Check resource state on ```__enter__()```
     + Check resource state on ```__exit__()```
