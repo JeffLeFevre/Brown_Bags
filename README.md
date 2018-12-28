@@ -12,22 +12,22 @@ What Does a Context Manager Look Like?
     4. Decorators in general are icky and gross
    
 + Class-based:
-    1. __init__
-    2. __enter__: try/except, return resource
-    3. __exit__: behaves like a ‘finally’ - always called, close out resource, tie up loose ends.
+    1. ```__init__```
+    2. ```__enter__```: try/except, return resource
+    3. ```__exit__```: behaves like a ‘finally’ - always called, close out resource, tie up loose ends.
 + The ‘with’ statement:
     1. Calls a built-in class or your custom class.
     2. Instantiates a Context Manager object
-    3. Left indent ends the ‘with’ statement, calling __exit__()
+    3. Left indent ends the ‘with’ statement, calling ```__exit__()```
 
 How do you Test a Context Manager?
 + Class-based method easier to test:
-    __init__
-    __enter__
-    __exit__
+    ```__init__```
+    ```__enter__```
+    ```__exit__```
     + Check that the above methods are being called
-    + Check resource state on __enter__()
-    + Check resource state on __exit__()
+    + Check resource state on ```__enter__()```
+    + Check resource state on ```__exit__()```
     + Ensure errors thrown
     + Structure helps lay out appropriate use
 
