@@ -22,7 +22,7 @@ What Does a Context Manager Look Like?
 
 How do you Test a Context Manager?
 + Class-based method easier to test:   
-    + Check that the above methods are being called
+    + Check that the appropriate methods are being called
     + Check resource state on ```__enter__()```
     + Check resource state on ```__exit__()```
     + Ensure errors thrown
