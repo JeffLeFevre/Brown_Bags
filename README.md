@@ -35,8 +35,8 @@ __What are the Benefits to Using a Context Manager?__
 ---
 __What are the Drawbacks?__
 + Code might not be as readable
-+ Hammer and nail - be sure the library or built-in you’re using doesn’t
-+ already have a context manager!
++ Hammer and nail - be sure the library or built-in you’re using doesn’t   
+  already have a context manager!
 ---
 __Resources:__
 https://docs.python.org/3/library/contextlib.html - Python 3.7 Context Manager Library
