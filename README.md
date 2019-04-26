@@ -38,10 +38,11 @@ __What are the Drawbacks?__
 + Hammer and nail - be sure the library or built-in you’re using doesn’t   
   already have a context manager!
 ---
-__Resources:__
-https://docs.python.org/3/library/contextlib.html - Python 3.7 Context Manager Library
-https://docs.python.org/3.6/library/contextlib.html - Python 3.6 Context Manager Library
-https://jeffknupp.com/blog/2016/03/07/python-with-context-managers/ - Thread lock example
-https://medium.com/@ramojol/python-context-managers-and-the-with-statement-8f53d4d9f87 - Database and Requests library examples    
-https://www.zeolearn.com/magazine/the-truth-about-context-managers-in-python
-https://youtu.be/-aKFBoZpiqA - Context Manager tutorial video
+__Resources:__   
+[Python 3.7 Context Manager Library](https://docs.python.org/3/library/contextlib.html)   
+[Python 3.6 Context Manager Library](https://docs.python.org/3.6/library/contextlib.html)   
+[Thread Lock Example](https://jeffknupp.com/blog/2016/03/07/python-with-context-managers/)   
+[Database and Requests Library Examples](https://medium.com/@ramojol/python-context-managers-and-the-with-statement-8f53d4d9f87)   
+[The Truth About Context Managers](https://www.zeolearn.com/magazine/the-truth-about-context-managers-in-python)   
+[Context Manager Tutorial Video](https://youtu.be/-aKFBoZpiqA)   
+   
